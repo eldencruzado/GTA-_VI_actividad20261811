@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTA VI Hub - Personajes y Mundo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>GRAND THEFT AUTO VI</h1>
+        <nav>
+            <a href="/">Inicio</a>
+            <a href="/personajes">Personajes y Mundo</a>
+            <a href="/mapa">Zonas de Leonida</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Fichas Oficiales de GTA VI</h2>
+        
+        <div class="featured-box">
+            <img src="{{ url_for('static', filename='img/protagonistas.jpg') }}" alt="Lucia Caminos y Jason Duval" class="featured-img">
+            <div class="featured-caption">
+                <h3>Lucia Caminos & Jason Duval</h3>
+                <p>Una pareja unida por el crimen y la supervivencia en las costas de Leonida.</p>
+            </div>
+        </div>
+
+        <div class="grid">
+            {% for item in lista_elementos %}
+                <div class="card">
+                    <span class="badge">{{ item.categoria }}</span>
+                    <h3>{{ item.nombre }}</h3>
+                    <p>{{ item.descripcion }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </main>
+
+    <footer>
+        <p>Proyecto Flask - Pensamiento Computacional y Programación</p>
+    </footer>
+</body>
+</html>

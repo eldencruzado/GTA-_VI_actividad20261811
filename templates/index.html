@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTA VI Hub - Inicio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>GRAND THEFT AUTO VI</h1>
+        <nav>
+            <a href="/">Inicio</a>
+            <a href="/personajes">Personajes y Mundo</a>
+            <a href="/mapa">Zonas de Leonida</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-banner">
+            <img src="{{ url_for('static', filename='img/logo.jpg') }}" alt="Logo Oficial GTA VI" class="banner-img">
+            <div class="hero-overlay">
+                <h2>Bienvenidos de vuelta a Vice City</h2>
+                <div class="info-pills">
+                    <span class="pill">📅 19 de noviembre de 2026</span>
+                    <span class="pill">🎮 PS5 & Xbox Series X|S</span>
+                    <span class="pill">⭐ Rockstar Games</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h3>La evolución más grande de la saga</h3>
+            <p>
+                Grand Theft Auto VI nos transporta al estado de Leonida, hogar de las calles iluminadas por el neón de Vice City y mucho más allá. 
+                Sigue la historia criminal de Lucia Caminos y Jason Duval en el mundo abierto más inmersivo creado hasta la fecha.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Proyecto Flask - Pensamiento Computacional y Programación</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+Proyecto: GTA VI Hub
+
+PROMPT 1 Estructura inicial
+hola, estoy haciendo una pagina web facil con python y flask sobre el juego gta 6 para un trabajo del colegio,
+me puedes decir como ordeno las carpetas y archivos del proyecto, una carpeta para los html y static con css para los estilos
+
+PROMPT 2 Rutas
+sin base de datos ni javascript porfa solo python
+
+PPROMPT 3 Paginas HTML
+ahora me puedes ayudar a hacer los tres archivos html dentro de la carpeta templates que son index,
+personajes y mapa, necesito que tengan un menu arriba con links para ir cambiando entre las tres paginas
+y ponle texto con info de gta 6, vice city y leonida
+
+PROMPT 4 Datos
+el profe pidio hacer una lista en python con cuatro cosas del tema y mandarla a una pagina, 
+hace una lista en mi codigo de python con cuatro cosas de gta 6 que son lucia caminos, 
+jason duval, vice city y estado de leonida con nombre, categoria y descripcion, 
+y dime como la paso a la pagina de personajes para que se vea repetida en pantalla 
+sin escribir el html cuatro veces
+
+PROMPT 5 Diseño
+la pagina se ve super fome en blanco y negro, me haces el codigo de estilos para meterlo en la carpeta de css 
+y dime como lo conecto a los tres html para q pesque los colores, quiero q tenga fondo oscuro y colores neon como rosado 
+y celeste tipo vice city, y que los datos salgan ordenados en cuadritos
+
+PROMPT 6 Revision
+corri el programa en la terminal pero no me pesco los colores del diseño, vi que le habia puesto style en vez de styles al archivo 
+y tambien tenia mal el link en los html, ya lo arregle y abrieron las tres paginas
+
+PROMPT 7 Interprete de Python en vs code
+en visual studio code me sale una raya amarilla debajo de donde dice flask en la linea 1 y no se como quitarla aunque la pagina si abre cuando la corro, 
+como la quito eso en el programa para que no me marque error
+
+PROMPT 8 Imagenes y mejora visual
+quiero q la pagina se vea mas pro y ponerle dos fotos que baje de internet, 
+donde tengo que guardar las fotos exactamente y q codigo pongo en el html y 
+en los estilos para q esten bien puestas y no gigantes
+
+PROMPT 9 Error con la imagen
+actualice la pagina pero las fotos no cargan y salen rotas, y abajo en la terminal me tira un error 404
+
+PROMPT 10 Error con el nombre de la foto
+en la pagina de personajes todavia no me salia la foto de los protagonistas y seguia tirando error 404 en la terminal,
+mira la carpeta de imagenes q tengo
