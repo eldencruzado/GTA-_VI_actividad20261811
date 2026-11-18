@@ -42,4 +42,4 @@ actualice la pagina pero las fotos no cargan y salen rotas, y abajo en la termin
 
 PROMPT 10 Error con el nombre de la foto
 en la pagina de personajes todavia no me salia la foto de los protagonistas y seguia tirando error 404 en la terminal,
-mira la carpeta de imagenes q tengo
+mira la carpeta de imagenes q tengo.
